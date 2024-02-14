@@ -35,9 +35,10 @@ h1 {
   border-bottom: 1px solid grey;
   margin-bottom: 2em;
   font-size: 2em;
+  padding: 0.5em 2em;
 }
 .calc-signs {
-  width: 100%;
+  width: 94%;
   display: flex;
   justify-content: space-between;
   margin: 1em auto 2em;
@@ -48,6 +49,9 @@ h1 {
   color: #fff;
   border: none;
   outline: none;
+}
+.calc-signs .reset:hover {
+  color: #fff;
 }
 .calc-signs__btn {
   width: 15%;
@@ -61,6 +65,42 @@ h1 {
 }
 .calc-signs__btn:hover {
   cursor: pointer;
+  border: 1px solid orangered;
+  color: orangered;
+  transition: all 0.2s ease-in-out;
+}
+.calc-digits {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+.calc-digits .count {
+  background: orangered;
+  font-size: 1.2em;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 62%;
+}
+.calc-digits .count:hover {
+  color: #fff;
+}
+.calc-digits__btn {
+  width: 30%;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 1em;
+  font-size: 1.2em;
+}
+.calc-digits__btn:hover {
+  cursor: pointer;
+  border: 1px solid orangered;
+  color: orangered;
+  transition: all 0.2s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
